@@ -2,7 +2,7 @@
   "name": "raghav-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raghavenator.github.io",
+  "homepage": "https://raghavenator.github.io/Personal-Website-Two/",
   "dependencies": {
     "animated": "^0.2.2",
     "gh-pages": "^1.1.0",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

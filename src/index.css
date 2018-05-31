@@ -1,0 +1,211 @@
+body {
+  background-color: #FFCC00;
+  padding: 20px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background: linear-gradient(to bottom, #16c309 0%, #16c309 33.33%, white 0, white 66.66%, red 0);
+  padding: 0;
+}
+ul.header li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Titillium Web', sans-serif;
+  width: 80px;
+}
+.content {
+  background-color: #FFCC00;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+.stripe {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Titillium Web', sans-serif;
+} 
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 50px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.resume {
+  background-color: #FFCC00;
+  transition: height 500ms 0ms, opacity 500ms 500ms;
+  box-shadow: 1px 1px 5px black;
+  border-top: 5px solid black;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.SlideIn-appear {
+  transform: translateY(10px);
+  opacity: 0;
+}
+.SlideIn-appear.SlideIn-appear-active {
+  opacity: 1;
+  transform: translateY(0);;
+  transition: all 0.6s linear;
+}
+.SlideIn-enter {
+    opacity: 0;
+    transform: translateY(10px);
+}
+.SlideIn-enter.SlideIn-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.2s linear 0.4s;
+}
+.SlideIn-leave {
+    opacity: 1.0;
+    transform: translateY(0);
+}
+.SlideIn-leave.SlideIn-leave-active {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-30px);
+    transition: all 0.2s linear;
+}
+.home {
+}
+.home-title {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+.resume-title {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.home-intro {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+.resume-intro {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.home-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 100px 40px;  
+}
+.home-grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-gap: 50px;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+.home-grid-container>div {
+  background-color: #FFCC00;
+  text-align: center;
+  padding:15px 0;
+  font-size: 30px;
+  box-shadow: 1px 1px 5px black;
+  font-family: 'Titillium Web', sans-serif;
+  width: 300px;
+  color: black;
+  font-weight: 500;
+  border-top: 5px solid black;
+  color: black;
+  font-weight: 500;
+}
+.home-grid-container>div a {
+  display: block;
+  text-decoration:none;
+  color: black;
+}
+.top-right {
+  font-size: 15px;
+  text-align: right;
+  line-height: 0;
+  padding-right: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template: 320px 320px 320px 320px / auto;
+  grid-gap: 100px;
+  padding: 10px;
+  margin: 50px auto;
+  width: 1020px;
+}
+.grid-container>div {
+  background-color: #FFCC00;
+  text-align: center;
+  padding:20px 0;
+  font-size: 30px;
+  box-shadow: 1px 1px 5px black;
+  border-top: 5px solid black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.project-title {
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 25px;
+}
+.description-text {
+  vertical-align: top;
+  text-align: left;
+  padding-right: 30px;
+}
+.description-image {
+  width: 400px;
+}
